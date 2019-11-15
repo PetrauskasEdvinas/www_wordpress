@@ -14,7 +14,9 @@
     <link href="css/bootstrap/css/bootstrap.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="css/app.css" rel="stylesheet">
+    <script>
 
+    </script>
 </head>
 <body>
 <nav class="navbar navbar-dark navbar-expand-lg w-100 pt-40 wm-main-div z-index-200 transparent">
@@ -24,21 +26,28 @@
                 aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <div class="form-inline my-2 my-lg-0 ml-auto menu-background"/>
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li class="nav-item mr-25 ml-25 li-style">
+        <div class="mobile-holder z-index-200 collapse navbar-collapse" id="navbarTogglerDemo02">
+            <div class="form-inline ml-auto menu-background"/>
+            <ul class="d-flex flex-column">
+                <button type="button" class="position-absolute close close-btn hover-opacity-6" data-toggle="collapse"
+                        data-target="#navbarTogglerDemo02"
+                        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </ul>
+            <ul class="navbar-nav xsm-mx-auto sm-mx-auto md-mx-auto mr-auto mt-2 mt-lg-0">
+                <li class="nav-item xsm-mx-auto sm-mx-auto md-mx-auto mr-25 ml-25 li-style">
                     <div class="position-relative">
                         <a class="nav-link d-flex align-items-center cursor-pointer hover-opacity-6 a-style" href="#">About
                             us</a>
                     </div>
                 </li>
-                <li class="nav-item mr-25 ml-25 li-style">
+                <li class="nav-item xsm-mx-auto sm-mx-auto md-mx-auto mr-25 ml-25 li-style">
                     <div class="position-relative">
                         <a class="nav-link d-flex align-items-center cursor-pointer hover-opacity-6 a-style" href="#">Blog</a>
                     </div>
                 </li>
-                <li class="nav-item mr-25 ml-25 li-style">
+                <li class="nav-item xsm-mx-auto sm-mx-auto md-mx-auto mr-25 ml-25 li-style">
                     <div class="position-relative">
                         <a class="nav-link d-flex align-items-center cursor-pointer hover-opacity-6 a-style" href="#">Contact</a>
                     </div>
@@ -131,25 +140,35 @@
 <!-- WHAT PRABLE GIVES YOU? -->
 <section class="section-spaces">
     <div class="container">
-        <div class="row no-gutters">
-            <div class="col-lg-6">
-                <div>
+        <div class="row">
+            <div class="col-10 col-lg-6">
+                <div class="mb-20">
                     <p class="label mb-10 mt-40">Grow your business</p>
                     <h3 class="mb-10 list">What prable gives you?</h3>
-                    <p><span style="color: #26c173">-</span> Get your work done by industry professionals, not interns.<br>
+                    <p><span style="color: #26c173">-</span> Get your work done by industry professionals, not
+                        interns.<br>
                         <span style="color: #26c173">-</span> Know your client. Our analysis will help you grow.<br>
                         <span style="color: #26c173">-</span> Attract clients from all platforms and make sales.<br>
                         <span style="color: #26c173">-</span> Establish a hub: online presence (store or business)<br>
-                        <span style="color: #26c173">-</span> Get found, not lost. SEO optimization and other services.</p>
+                        <span style="color: #26c173">-</span> Get found, not lost. SEO optimization and other services.
+                    </p>
                     <a class="read-more" href="#"><b>Read more →</b></a>
                 </div>
             </div>
-            <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-                <video width="540" height="360" controls class="float-right">
-                    <source src="movie.mp4" type="video/mp4">
-                    <source src="movie.ogg" type="video/ogg">
-                    Your browser does not support the video tag.
-                </video>
+            <div class="col-10 col-lg-6 bg-l">
+                <div class="video-bg">
+                    <a href="#">
+                        <span class="btn-video">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="94" height="94" viewBox="0 0 94 94">
+                                <g fill="none" fill-rule="evenodd">
+                                    <circle cx="47" cy="47" r="47" fill="#26C173"/>
+                                    <path fill="#ffffff"
+                                          d="M40.094 31.134a.685.685 0 0 0-.717-.06.696.696 0 0 0-.377.621v30.61c0 .262.146.502.377.62a.682.682 0 0 0 .717-.06L60.72 47.562a.7.7 0 0 0 0-1.123L40.094 31.134z"/>
+                                </g>
+                            </svg>
+                        </span>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
@@ -160,7 +179,7 @@
 <section class="text-left section-spaces">
     <div class="container">
         <div class="row">
-            <div class="col-lg-4 w-post">
+            <div class="col-8 col-md-6 col-lg-4 w-post xsm-mx-auto sm-mx-auto">
                 <div class="mx-auto mb-5 mb-lg-0 borders">
                     <div class="img-fluid mb-3 post-style" alt=""></div>
                     <div class="mb-30 ml-30 mr-30 mt-20">
@@ -170,7 +189,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 w-post">
+            <div class="col-8 col-md-6 col-lg-4 w-post xsm-mx-auto sm-mx-auto">
                 <div class="mx-auto mb-5 mb-lg-0 borders">
                     <div class="img-fluid mb-3 post-style" alt=""></div>
                     <div class="mb-30 ml-30 mr-30 mt-20">
@@ -180,7 +199,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 w-post">
+            <div class="col-8 col-md-6 col-lg-4 w-post xsm-mx-auto sm-mx-auto">
                 <div class="mx-auto mb-5 mb-lg-0 borders">
                     <div class="img-fluid mb-3 post-style" alt=""></div>
                     <div class="mb-30 ml-30 mr-30 mt-20">
@@ -233,79 +252,80 @@
         </div>
     </div>
 </section>
-
-<!-- Footer -->
+<!-- FOOTER -->
 <footer class="section-spaces bg-footer">
     <div class="container">
         <div class="row">
-            <div class="col-lg-3 text-center text-lg-left">
-                <ul class="m-0">
+            <div class="col-6 col-lg-3 xsm-mb-20 sm-mb-20 md-mb-20 text-left">
+                <ul>
                     <h3 class="footer-titles mt-15">Company</h3>
                     <li class="">
-                        <a href="#">About Us</a>
+                        <a href="#" class="footer-text-style">About Us</a>
                     </li>
                     <li class="">
-                        <a href="#">Careers</a>
+                        <a href="#" class="footer-text-style">Careers</a>
                     </li>
                     <li class="">
-                        <a href="#">Blog</a>
+                        <a href="#" class="footer-text-style">Blog</a>
                     </li>
                     <li class="">
-                        <a href="#">Press</a>
+                        <a href="#" class="footer-text-style">Press</a>
                     </li>
                     <li class="">
-                        <a href="#">Brand Guidelines</a>
+                        <a href="#" class="footer-text-style">Brand Guidelines</a>
                     </li>
                 </ul>
             </div>
-            <div class="col-lg-3 text-center text-lg-left">
-                <ul class="m-0">
+            <div class="col-6 col-lg-3 xsm-mb-20 sm-mb-20 md-mb-20 text-left">
+                <ul>
                     <h3 class="footer-titles mt-15">Product</h3>
                     <li class="">
-                        <a href="#">Enterprise</a>
+                        <a href="#" class="footer-text-style">Enterprise</a>
                     </li>
                     <li class="">
-                        <a href="#">Customer Stories</a>
+                        <a href="#" class="footer-text-style">Customer Stories</a>
                     </li>
                     <li class="">
-                        <a href="#">Pricing</a>
+                        <a href="#" class="footer-text-style">Pricing</a>
                     </li>
                     <li class="">
-                        <a href="#">Security</a>
+                        <a href="#" class="footer-text-style">Security</a>
                     </li>
                 </ul>
             </div>
-            <div class="col-lg-3 text-center text-lg-left">
-                <ul class="m-0">
+            <div class="col-6 col-lg-3 xsm-mb-20 sm-mb-20 md-mb-20 text-left">
+                <ul>
                     <h3 class="footer-titles mt-15">Resources</h3>
                     <li class="">
-                        <a href="#">Download</a>
+                        <a href="#" class="footer-text-style">Download</a>
                     </li>
                     <li class="">
-                        <a href="#">Help Center</a>
+                        <a href="#" class="footer-text-style">Help Center</a>
                     </li>
                     <li class="">
-                        <a href="#">Guides</a>
+                        <a href="#" class="footer-text-style">Guides</a>
                     </li>
                     <li class="">
-                        <a href="#">Partners</a>
+                        <a href="#" class="footer-text-style">Partners</a>
                     </li>
                     <li class="">
-                        <a href="#">Events</a>
+                        <a href="#" class="footer-text-style">Events</a>
                     </li>
                 </ul>
             </div>
-            <div class="col-lg-3 text-center text-lg-left">
-                <div class="row">
-                    <div class="mx-auto d-flex text-center text-lg-left">
+            <div class="col-6 col-lg-3 xsm-mb-20 sm-mb-20 md-mb-20 text-left ">
+                <div class="row xsm-pl-40 sm-pl-40 md-pl-40">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 mx-auto d-flex text-center text-lg-left">
                         <div class="d-inline-flex md-mr-25 mr-50 align-items-center">
                             <span class="flags mr-15"></span>
                             <p class="footer-titles m-0">English</p>
                         </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 mx-auto d-flex text-center text-lg-left">
                         <div class="d-flex align-items-center">
                             <a href="#" class="mr-10"><span class="social-icons facebook mr-15"></span></a>
                             <a href="#" class="mr-10"><span class="social-icons twitter mr-15"></span></a>
-                            <a href="#" class="mr-10"><span class="social-icons dribble mr-15"></span></a>
+                            <a href="#" class="mr-10"><span class="social-icons dribble"></span></a>
                         </div>
                     </div>
                 </div>

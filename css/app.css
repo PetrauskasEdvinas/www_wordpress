@@ -29,7 +29,6 @@ h6 {
 .mt-5 {
     margin-top: 5px;
 }
-
 .mb-10 {
     margin-bottom: 10px;
 }
@@ -496,9 +495,7 @@ circle:hover {
 
     .menu-background {
         background-color: rgb(2, 29, 36);
-        padding: 15px;
-        border-radius: 5px;
-        height: 75vh;
+        height: 100vh;
     }
 
     .md-mr-25 {
@@ -515,15 +512,17 @@ circle:hover {
     }
 
     .close-btn {
+        right: 10px;
         top: 50px;
-        right: 50px;
     }
-
     .close {
-
         color: #ffffff;
         text-shadow: none;
         opacity: 1;
+        display: inline-block;
+        width: 1.5em;
+        height: 1.5em;
+        vertical-align: middle;
     }
 
     .close:hover, .close:active {
@@ -558,7 +557,6 @@ circle:hover {
     .sm-mb-20 {
         margin-bottom: 20px;
     }
-
     /*PADDING*/
     .sm-pl-40 {
         padding-left: 40px;
@@ -567,10 +565,6 @@ circle:hover {
     .sm-mx-auto {
         margin-left: auto !important;
         margin-right: auto !important;
-    }
-
-    .menu-background {
-        height: 80vh !important;
     }
 }
 
@@ -588,10 +582,6 @@ circle:hover {
     .xsm-mx-auto {
         margin-left: auto !important;
         margin-right: auto !important;
-    }
-
-    .menu-background {
-        height: 100vh !important;
     }
 }
 
